@@ -1,0 +1,27 @@
+Una API REST (Representational State Transfer) es un estilo de arquitectura de software que se utiliza para diseñar aplicaciones web y servicios web que se comunican entre sí a través de Internet. Las API RESTful se basan en principios simples y están diseñadas para ser fáciles de entender y utilizar. Aquí tienes una explicación de los conceptos clave de una API REST:
+
+1. **Recursos:** En una API REST, todo es un recurso. Un recurso puede ser cualquier cosa que se pueda identificar mediante una URL (Uniform Resource Locator). Por ejemplo, en una API de comercio electrónico, los recursos podrían incluir productos, categorías, pedidos, usuarios, etc.
+
+2. **Operaciones CRUD:** Las operaciones en una API REST se basan en operaciones CRUD (Crear, Leer, Actualizar, Borrar). Cada recurso se puede manipular utilizando estas operaciones estándar:
+
+   - **Crear (Create):** Se utiliza para crear un nuevo recurso, por ejemplo, al agregar un nuevo producto a una base de datos.
+   - **Leer (Read):** Se utiliza para recuperar información sobre un recurso, por ejemplo, al obtener detalles de un producto específico.
+   - **Actualizar (Update):** Se utiliza para modificar un recurso existente, como cambiar el precio de un producto.
+   - **Borrar (Delete):** Se utiliza para eliminar un recurso, como eliminar una publicación de blog.
+
+3. **Protocolo HTTP:** Las API REST utilizan el protocolo HTTP (Hypertext Transfer Protocol) para la comunicación. Cada operación CRUD se mapea a un método HTTP específico:
+
+   - **POST:** Se utiliza para crear un recurso nuevo.
+   - **GET:** Se utiliza para leer o recuperar información sobre un recurso.
+   - **PUT:** Se utiliza para actualizar un recurso existente.
+   - **DELETE:** Se utiliza para eliminar un recurso.
+
+4. **Estado y representación:** Los recursos en una API REST se representan en un formato específico, como JSON o XML. Cada recurso tiene un estado y una representación. La representación es la forma en que se presenta el recurso, y el estado es la información actual del recurso en un momento dado.
+
+5. **Sin estado:** Una API REST es "sin estado", lo que significa que cada solicitud al servidor debe contener toda la información necesaria para comprender y procesar la solicitud. El servidor no almacena información de estado sobre las solicitudes anteriores del cliente.
+
+6. **Uso de URI:** Las URI (Uniform Resource Identifiers) se utilizan para identificar y acceder a los recursos. Cada recurso tiene una URI única que se utiliza en las solicitudes HTTP.
+
+7. **Ejemplo de URI:** Un ejemplo de URI de una API REST podría ser: `https://api.misitio.com/productos/123`, donde `productos` es el recurso y `123` es el identificador único del producto.
+
+En resumen, una API REST es una forma de diseñar servicios web que se basa en principios simples y utiliza HTTP para la comunicación. Se centra en la manipulación de recursos a través de operaciones CRUD y utiliza URIs para identificar y acceder a esos recursos. Las API RESTful son ampliamente utilizadas en el desarrollo web debido a su simplicidad y facilidad de uso, lo que las hace ideales para la creación de aplicaciones y servicios web interoperables y escalables.

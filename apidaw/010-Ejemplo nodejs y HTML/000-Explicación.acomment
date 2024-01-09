@@ -1,0 +1,5 @@
+En los siguientes dos ejercicios, se presenta un ejemplo de conexión entre dos sistemas informáticos. En el primer sistema informático, que podríamos considerar como el sistema del cliente, encontramos únicamente HTML, similar a lo que hemos realizado en ejercicios anteriores. En esta ocasión, en el lado del servidor, encontramos un enrutador programado en Node.js que está configurado para ofrecer tres rutas diferentes. Este enfoque es muy similar a lo que hemos implementado en el ejemplo anterior con Python.
+
+En este caso, se presenta un ejemplo en el que se inicia un servidor Node.js que ofrece tres rutas posibles. En el lado del cliente, utilizando únicamente JavaScript y mediante conexiones asincrónicas, nos conectamos al servidor de APIs para obtener la información que pueda ser necesaria.
+
+Este ejercicio ilustra cómo se puede implementar una conexión entre sistemas utilizando HTML en el cliente y Node.js en el servidor. Node.js es un entorno de tiempo de ejecución de JavaScript del lado del servidor que es ampliamente utilizado para crear aplicaciones web escalables y eficientes en términos de recursos.

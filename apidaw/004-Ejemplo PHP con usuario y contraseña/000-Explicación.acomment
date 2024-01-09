@@ -1,0 +1,13 @@
+Este segundo ejemplo es similar al primer ejercicio, pero en esta ocasión deseamos implementar medidas de seguridad, como el acceso a una API mediante un usuario y contraseña. El objetivo es controlar el acceso al servidor y limitarlo solo a las personas a las que hemos otorgado confianza.
+
+Es importante mencionar algunas consideraciones clave:
+
+Los ejercicios muestran usuarios contenidos dentro de una colección de parejas de usuario y contraseña. En un escenario práctico y más avanzado, estos usuarios y contraseñas probablemente provendrían de una conexión a una base de datos. Sin embargo, el propósito de estos ejercicios es ilustrar el uso de las APIs desde ejemplos simples y comprensibles.
+
+Tanto en este ejemplo como en todos los ejercicios de este documento, la parte del cliente y la parte del servidor de la API están ubicadas en el mismo ordenador, que es nuestro propio ordenador de desarrollo. Esto se hace para facilitar tanto la comprensión de los ejercicios como la implementación del código para realizar pruebas con los ejemplos proporcionados. En un entorno de producción real, la parte del servidor estaría en un sistema informático diferente. Sin embargo, incluso en un entorno de desarrollo, podemos simular estos dos sistemas informáticos utilizando máquinas virtuales dentro de la misma máquina física.
+
+La conexión entre el cliente y el servidor se realiza en el lado del cliente utilizando PHP. Esto permite introducir credenciales como usuario y contraseña para la conexión al servidor de la API, obtener una respuesta y, a partir de ese momento, formatear la respuesta y representarla en la capa HTML.
+
+Una consideración muy importante con respecto a este ejercicio es que el servidor de la API y la parte de cliente correspondiente al servidor están desarrollados en el lenguaje PHP por ninguna razón específica. Uno de los objetivos principales de este documento es ilustrar cómo las tecnologías del cliente pueden ser completamente independientes de las tecnologías del servidor. Para lograr esto, existe una capa intermedia de API que se entrega en formato XML o JSON, por ejemplo. Esto permite abstraer las tecnologías en el cliente y el servidor y proporcionar una capa de comunicación completamente agnóstica de las tecnologías utilizadas.
+
+Este ejercicio ejemplifica cómo se pueden implementar medidas de seguridad, como la autenticación de usuarios, en la conexión a una API, lo que es esencial para proteger los recursos y la información en un entorno de producción real.

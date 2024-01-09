@@ -1,0 +1,9 @@
+En este primer ejercicio dentro del bloque de ejercicios de conexión a APIs web, abordamos una conexión en la que el cliente está compuesto puramente por tecnologías de cliente, es decir, HTML y JavaScript que representa la información en HTML. Por otro lado, en el servidor utilizamos PHP.
+
+Es importante destacar que estamos hablando de dos sistemas informáticos diferentes en este ejemplo. En el primer sistema informático, que es desde donde se consume la información, encontramos tecnologías HTML. En este contexto, el servidor podría ser tan sencillo como un servidor Apache. El cliente realiza una conexión remota a una API que reside en un servidor remoto. Para este ejemplo, consideramos que ese servidor remoto está implementado en PHP.
+
+Dado que estamos trabajando en el lado del cliente con JavaScript, la principal vía para realizar peticiones a una API remota es a través de conexiones asincrónicas utilizando diferentes técnicas Ajax. En este ejemplo, ilustramos el uso de "fetch," que es una tecnología destinada a reemplazar con el tiempo a "XML HTTP request."
+
+En el servidor, encontramos un script PHP que responde a las llamadas y ofrece información en cualquier formato deseado, ya sea JSON, XML u otro formato. Cabe mencionar que este ejemplo es bastante sencillo y no está diseñado para implementar medidas de seguridad, como el acceso protegido mediante usuario y contraseña. Dado que la conexión se realiza enteramente desde el lado del cliente con JavaScript, cualquier usuario y contraseña introducidos quedarían al descubierto.
+
+Este ejercicio sirve como una introducción básica a la conexión a APIs web desde el cliente y el servidor utilizando JavaScript y PHP. En ejemplos más avanzados, se pueden implementar medidas de seguridad y autenticación adecuadas para proteger la información y los recursos.

@@ -1,0 +1,14 @@
+En este ejemplo, ilustraremos una versión sencilla de comunicación desde el cliente hasta el servidor. En el sistema informático del servidor, utilizaremos un servidor montado con Python, específicamente utilizando la biblioteca Flask. Para garantizar una fácil autenticación por parte del cliente, también importaremos la biblioteca CORS para asegurarnos de tener un fácil acceso, independientemente de la ubicación del sistema informático del cliente.
+
+Una vez que estamos en Flask, básicamente creamos tres rutas:
+
+Una ruta devolviendo un conjunto de datos vacíos.
+Una ruta devolviendo un listado de clientes.
+Una ruta devolviendo un listado de productos.
+En este caso, cada una de estas rutas devuelve una colección de datos en formato JSON. En el lado del cliente, trabajaremos únicamente con JavaScript, al igual que en el primer ejercicio. Obtendremos la información desde el sistema informático del cliente hasta el sistema informático del servidor utilizando peticiones asincrónicas.
+
+El sistema informático del cliente recibirá una respuesta a cada una de las peticiones que realice, y podrá obtener un listado de clientes o un listado de productos, dependiendo de la dirección a la cual realice la llamada.
+
+Es importante destacar que, desde el punto de vista de las tecnologías, JavaScript y Python son, en principio, dos lenguajes de programación sin relación directa. Sin embargo, gracias al uso de APIs, y teniendo en cuenta que ambas tecnologías se comunican a través de una capa intermedia en formato JSON, JavaScript no necesita saber que en el lado del servidor se está utilizando Python, y Python no necesita saber que está proporcionando información a JavaScript. Ambos lenguajes simplemente deben saber que deben utilizar correctamente el formato JSON para intercambiar datos entre los dos sistemas.
+
+Este ejercicio ilustra la abstracción de las tecnologías en el lado del cliente y el lado del servidor, a través del uso de una capa intermedia de compartición de datos. Además, muestra cómo diferentes lenguajes de programación pueden comunicarse eficazmente utilizando un formato de intercambio de datos común, en este caso, JSON.

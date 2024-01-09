@@ -1,0 +1,7 @@
+En este ejercicio, repetiremos prácticamente el mismo ejemplo que en el ejercicio anterior, donde implementamos una comunicación entre un cliente y un servidor utilizando Python en el servidor, pero en este caso, utilizaremos el formato XML en lugar del formato JSON.
+
+La diferencia principal radica en que, en este caso, el lado del cliente debe estar preparado para adquirir la información en formato XML y tratarla adecuadamente. Es importante destacar que cuando se pasa la información en formato JSON, dado que JSON es nativo de JavaScript, JavaScript está más preparado para trabajar y tratar la información en JSON de manera más fluida.
+
+El objetivo de este ejercicio es demostrar que, aunque trabajemos con formato XML, con unas cuantas líneas adicionales de código en JavaScript, podemos interpretar y transformar correctamente la información para procesarla dentro de nuestros programas. A nivel tecnológico y de programación, el ejercicio es prácticamente el mismo que el anterior, con la única diferencia del formato de intercambio de datos.
+
+Este ejercicio demuestra la flexibilidad de las tecnologías y cómo podemos adaptarnos a diferentes formatos de datos según nuestras necesidades, utilizando las capacidades de interpretación y procesamiento adecuadas.
